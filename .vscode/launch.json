@@ -1,0 +1,22 @@
+{
+    "configurations": [
+        {
+            "type": "lldb",
+            "request": "launch",
+            "name": "Debug cat",
+            "program": "${workspaceFolder:cat}/.build/debug/cat",
+            "args": [],
+            "cwd": "${workspaceFolder:cat}",
+            "preLaunchTask": "swift: Build Debug cat"
+        },
+        {
+            "type": "lldb",
+            "request": "launch",
+            "name": "Release cat",
+            "program": "${workspaceFolder:cat}/.build/release/cat",
+            "args": [],
+            "cwd": "${workspaceFolder:cat}",
+            "preLaunchTask": "swift: Build Release cat"
+        }
+    ]
+}
