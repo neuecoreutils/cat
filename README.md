@@ -1,3 +1,1 @@
-# cat
-
-A description of this package.
+# cat - concatenate/merge files
